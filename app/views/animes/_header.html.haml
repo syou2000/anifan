@@ -1,4 +1,4 @@
-.all 
+
   .header
     .header__top
       .header__top__left
@@ -12,6 +12,7 @@
         .header__top__right__search__tag
           検索するタグ
         .header__top__right__user__nickname
+          = link_to new_user_session_url do
             ユーザの名前
     .header__down
       %ul

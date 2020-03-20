@@ -1,10 +1,16 @@
+
 @import "reset";
-@import "animes";
+// Custom bootstrap variables must be set or imported *before* bootstrap.
+// -- bootstrap import
+// @import "animes";
 @import "modules/header";
 @import "modules/flowanime";
 @import "modules/seasonanime";
 @import "modules/tagranking";
 @import "modules/footer";
-// @import "scss/navbar";
+
+@import "scss/navbar"
+@import "modules/user";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
