@@ -5,11 +5,14 @@
         あにファン
       .header__top__right
         .header__top__right__search__name
-          検索するアニメ
+          -# %form.form_inline
+          -#   %input.form-controll.mr-sm-2{type: "text", placeholder: "Search"}
+          -#   %button.btn.btn-outline-success.my-2.my-sm-0{type: "submit"}
+          -#     Search
         .header__top__right__search__tag
           検索するタグ
         .header__top__right__user__nickname
-          ユーザの名前
+            ユーザの名前
     .header__down
       %ul
         %li
