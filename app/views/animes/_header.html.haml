@@ -1,23 +1,26 @@
-.header
-  .header__top
-    .header__top__left.page-header
-      あにファン
-    .header__top__right
-      .header__top__right__search__name
-        検索するアニメ
-      .header__top__right__search__tag
-        検索するタグ
-      .header__top__right__user__nickname
-        = link_to new_user_session_url do
-          ユーザの名前
-          -# = current_user.nickname
-  .header__down
-    %ul
-      %li
-        今期のアニメ
-      %li
-        タグ別ランキング
-      %li
-        最新レビュー
-      %li
-        総合ランキング
+
+  .header
+    .header__top
+      .header__top__left
+        あにファン
+      .header__top__right
+        .header__top__right__search__name
+          -# %form.form_inline
+          -#   %input.form-controll.mr-sm-2{type: "text", placeholder: "Search"}
+          -#   %button.btn.btn-outline-success.my-2.my-sm-0{type: "submit"}
+          -#     Search
+        .header__top__right__search__tag
+          検索するタグ
+        .header__top__right__user__nickname
+          = link_to new_user_session_url do
+            ユーザの名前
+    .header__down
+      %ul
+        %li
+          今期のアニメ
+        %li
+          タグ別ランキング
+        %li
+          最新レビュー
+        %li
+          総合ランキング
