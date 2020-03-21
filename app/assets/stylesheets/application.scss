@@ -8,9 +8,11 @@
 @import "modules/seasonanime";
 @import "modules/tagranking";
 @import "modules/footer";
-
-@import "scss/navbar"
+@import "scss/bootstrap-grid.scss";
+@import "scss/bootstrap-reboot.scss";
+@import "scss/bootstrap.scss";
 @import "modules/user";
+@import "modules/hana";
 @import "font-awesome-sprockets";
 @import "font-awesome";
 
