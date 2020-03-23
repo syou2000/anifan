@@ -2,7 +2,7 @@
 %html
   %head
     %meta{:content => "text/html; charset=UTF-8", "http-equiv" => "Content-Type"}/
-    %title あにファン
+    %title Anifan アニメ好きのためのサイト
     = csrf_meta_tags
     = csp_meta_tag
     -# <!-- Bootstrap CSS -->
@@ -11,5 +11,6 @@
     = javascript_include_tag 'application', 'data-turbolinks-track': 'reload'
 
   %body
-    %script{:src => "app/assets/javascripts/sakura.js"}
+    %script{:src => "assets/sakura.js"}
     = yield
+    
