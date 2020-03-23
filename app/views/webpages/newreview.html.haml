@@ -1,0 +1,32 @@
+.header__right
+  .header__right__search__name
+    %form.form_inline
+      %input.form-controll.mr-sm-2{type: "text", placeholder: "検索したいアニメの名前"}
+      %button.btn.btn-primary.my-2.my-sm-0{type: "submit"}
+        検索          
+  .header__right__search__tag
+    %form.form_inline
+      %input.form-controll.mr-sm-2{type: "text", placeholder: "検索したいタグの名前"}
+      %button.btn.btn-primary.my-2.my-sm-0{type: "submit"}
+        検索
+  .header__right__user__nickname
+    = link_to new_user_session_url do
+      = current_user.nickname
+.header__down
+  %ul
+    %li
+      = link_to "seasonanime" do
+        %button.btn.btn-outline-dark{type: "button"}
+          今期のアニメ
+    %li
+      = link_to "tagranking" do
+        %button.btn.btn-outline-dark{type: "button"}
+          タグ別ランキング
+    %li
+      = link_to "newreview" do
+        %button.btn.btn-outline-dark{type: "button"}
+          最新レビュー
+    %li
+      = link_to "totalranking" do
+        %button.btn.btn-outline-dark{type: "button"}
+          総合ランキング

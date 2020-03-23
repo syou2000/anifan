@@ -2,9 +2,9 @@
 @import "reset";
 // Custom bootstrap variables must be set or imported *before* bootstrap.
 // -- bootstrap import
-// @import "animes";
+@import "animes";
 @import "modules/header";
-@import "modules/flowanime";
+@import "modules/loop_wrap";
 @import "modules/seasonanime";
 @import "modules/tagranking";
 @import "modules/footer";
@@ -12,7 +12,9 @@
 @import "scss/bootstrap-reboot.scss";
 @import "scss/bootstrap.scss";
 @import "modules/user";
-@import "modules/hana";
 @import "font-awesome-sprockets";
 @import "font-awesome";
+
+@import url('https://fonts.googleapis.com/css?family=Dancing+Script&display=swap');
+
 

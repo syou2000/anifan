@@ -1,7 +1,7 @@
 (function(d,b,w){
 	var q = d.createElement('div');
-	q.id = "hana";
-	q.className = "hana"+
+	q.id = "sakura";
+	q.innerHTML = '<style>'+
 	'html,body{overflow-x:hidden;}'+
 	'.hana{'+
 	'position:absolute;height:0;width:0;'+
